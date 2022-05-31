@@ -14,12 +14,12 @@ import pandas as pd
 from firebase import firebase
 import shutil
 face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-firebase = firebase.FirebaseApplication('https://icps-9cc0a.firebaseio.com/', None)
+firebase = firebase.FirebaseApplication('................', None)
 s3 = boto3.resource(
     service_name='s3',
     region_name='ap-south-1',
-    aws_access_key_id='AKIAJGYJATGXTXHFPPAQ',
-    aws_secret_access_key='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'
+    aws_access_key_id='..............',
+    aws_secret_access_key='............'
 )
 
 

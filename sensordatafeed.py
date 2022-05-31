@@ -9,7 +9,7 @@ name = input("Enter the name:\n")
 
 now = datetime.now()
 current_time = now.strftime("%H:%M")
-firebase = firebase.FirebaseApplication('https://icps-9cc0a.firebaseio.com/', None)
+firebase = firebase.FirebaseApplication('.............', None)
 data =  { 'time': str(current_time),
          'data':str(random.randint(80,130))
           }
